@@ -9,26 +9,26 @@
 */
 
 :root {
---primary-text-color:#212121;
---secondory-text-color:#757575;
---accsent-color:#2196F3;
---second-accent-color:#188CE8;
---primary-background-color:#FFFFFF;
---secondory-baclground-color:#F5F4FA;
---footer-bacground-color:#2F303A;
---logo-bl-color:#000000;
---footer-cotnacts-color:color: rgba(255, 255, 255, 0.6);
---hero-tittle-color:#ffffff;
---head-line-color:#ECECEC;
+    --primary-text-color: #212121;
+    --secondory-text-color: #757575;
+    --accsent-color: #2196F3;
+    --second-accent-color: #188CE8;
+    --primary-background-color: #FFFFFF;
+    --secondory-baclground-color: #F5F4FA;
+    --footer-bacground-color: #2F303A;
+    --logo-bl-color: #000000;
+    --footer-cotnacts-color: color: rgba(255, 255, 255, 0.6);
+    --hero-tittle-color: #ffffff;
+    --head-line-color: #ECECEC;
 }
 
 body {
-background-color: var(--primary-background-color);
-color: var(--secondory-text-color);
+    background-color: var(--primary-background-color);
+    color: var(--secondory-text-color);
 
-font-family:'Roboto',sans-serif;
-font-size: 14px;
-letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -37,33 +37,35 @@ letter-spacing: 0.03em;
 
 .logo {
     color: var(--logo-bl-color);
-    font-family: 'Raleway',sans-serif;
- 
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        text-decoration: none;
-} 
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
 /* site nav */
 
 .site-nav .link {
     color: var(--primary-text-color);
 
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav a:hover,
 .auth-nav a:focus,
 .site-nav .link.current {
-    color:var(--accsent-color);
+    color: var(--accsent-color);
 }
 
-.auth-nav  a {
+.auth-nav a {
     color: var(--secondory-text-color);
 
     font-weight: 500;
@@ -80,7 +82,7 @@ letter-spacing: 0.03em;
 }
 
 .hero-title {
-color: var(--primary-background-color);
+    color: var(--primary-background-color);
 
     font-style: normal;
     font-weight: 900;
@@ -95,7 +97,7 @@ color: var(--primary-background-color);
 .button {
     color: var(--hero-tittle-color);
     background-color: var(--accsent-color);
-    
+
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -105,14 +107,15 @@ color: var(--primary-background-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-    
+
     border-color: transparent;
 }
+
 .button:hover,
 .button:focus {
     background-color: var(--second-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+    border-radius: 4px;
 }
 
 .button-port {
@@ -120,14 +123,15 @@ color: var(--primary-background-color);
     background-color: var(--secondory-baclground-color);
 
     font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        border-radius: 4px;
-        cursor: pointer;
-        border-color: transparent;
-      
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: transparent;
+
 }
+
 .button-port:hover,
 .button-port:focus,
 .button-port:active {
@@ -139,8 +143,8 @@ color: var(--primary-background-color);
     font-size: 16px;
     line-height: 1.62;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
-        cursor: pointer;
+    border-radius: 4px;
+    cursor: pointer;
     border-color: transparent;
 }
 
@@ -155,47 +159,64 @@ color: var(--primary-background-color);
 .section-title {
     color: var(--primary-text-color);
 
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
+
 .visally-hidden {
     position: fixed;
     transform: scale(0);
 
 }
+
 .teams {
     background-color: var(--secondory-baclground-color);
 }
+
 .team-curds {
     background-color: var(--primary-background-color);
 }
+
 .featurelist-title {
     color: var(--primary-text-color);
 
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.14;
 }
-
 
 .featurelist-text {
 
-    color:var(--secondory-text-color);
-  
-    font-weight: 400;
-    font-size: 14px;
+    color: var(--secondory-text-color);
+    font-size: 16px;
     line-height: 1.71;
+}
+
+.portlist-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portlist-text {
+    color: var(--secondory-text-color);
+
+    font-size: 16px;
+    line-height: 1.87;
 }
 
 .decoration-none {
     text-decoration: none;
 
 }
+
 /* Footer */
 
-.footer{
+.footer {
     background-color: var(--footer-bacground-color);
 }
 
@@ -203,31 +224,37 @@ color: var(--primary-background-color);
     color: var(--hero-tittle-color);
 
     font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        text-decoration: none;
-     
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
 }
+
 .logo-accent {
-color: var(--accsent-color);
+    color: var(--accsent-color);
 }
-.adress{
-color: var(--primary-background-color);
-    
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.17;
-text-decoration: none;
+
+.adress {
+    color: var(--primary-background-color);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
 }
+
 .footer-contacts {
     color: var(--footer-cotnacts-color);
 
 
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accsent-color);
 }
