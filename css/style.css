@@ -178,11 +178,26 @@ body {
 .team-curds {
     background-color: var(--primary-background-color);
 }
+.discript-tittle{
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+  
+}
+
+.discript-text {
+   color: var(--secondory-text-color);
+
+    font-size: 14px;
+    line-height: 24px;
+}
 
 .featurelist-title {
     color: var(--primary-text-color);
 
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.14;
 }
